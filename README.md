@@ -1,6 +1,6 @@
 ## Note
 
-Code is placed in the directory 'code' and the plots in the directory 'figures'
+Code is placed in the directory 'code' and the plots in the directory 'figures'. All the paths within the source code are relative to the working directory on my system.
 
 
 ## Introduction
