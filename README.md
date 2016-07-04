@@ -1,3 +1,8 @@
+## Note
+
+Code is placed in the directory 'code' and the plots in the directory 'figures'
+
+
 ## Introduction
 
 This assignment uses data from
