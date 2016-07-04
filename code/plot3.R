@@ -1,5 +1,9 @@
-##Unzip downloaded file
-  unzip(".data/Course4/ExData_Plotting1/household_power_consumption.zip")
+## Download file
+  download.file("https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip", mode = "wb",
+              destfile = "./data/Course4/ExData_Plotting1/household_power_consumption.zip")
+
+## Unzip downloaded file
+  unzip("./data/Course4/ExData_Plotting1/household_power_consumption.zip")
 
 ## Read data from textfile
   rawData <- read.csv("./data/Course4/household_power_consumption.txt", sep = ";", header = TRUE)
