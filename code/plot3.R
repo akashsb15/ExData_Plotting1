@@ -1,3 +1,6 @@
+##Unzip downloaded file
+  unzip(".data/Course4/ExData_Plotting1/household_power_consumption.zip")
+
 ## Read data from textfile
   rawData <- read.csv("./data/Course4/household_power_consumption.txt", sep = ";", header = TRUE)
 
@@ -16,7 +19,7 @@
   ## reqData$Sub_metering_3 is already in numeric format
 
 ## Select device to plot
-  png(file = "./data/Course4/ElectricPowerConsumptionData/figures/plot3.png", bg = "transparent")
+  png(file = "./data/Course4/ExData_Plotting1/figures/plot3.png", bg = "transparent")
 
 ## Plot line graphs
   with(reqData,plot(Time,Sub_metering_1,type = "l", xlab = "", ylab = "Energy sub metering"))

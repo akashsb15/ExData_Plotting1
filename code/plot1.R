@@ -1,3 +1,6 @@
+##Unzip downloaded file
+  unzip(".data/Course4/ExData_Plotting1/household_power_consumption.zip")
+
 ## Read data from textfile
   rawData <- read.csv("./data/Course4/household_power_consumption.txt", sep = ";", header = TRUE)
 
@@ -14,7 +17,7 @@
   globalActPow <- as.numeric(levels(reqData$Global_active_power)[reqData$Global_active_power])
 
 ## Select device to plot
-  png(file = "./data/Course4/ElectricPowerConsumptionData/figures/plot1.png", bg = "transparent")
+  png(file = "./data/Course4/ExData_Plotting1/figures/plot1.png", bg = "transparent")
 
 ## Plot histogram
   hist(globalActPow, xlab = "Global Active Power (kilowatts)", main = "Global Active Power", col = "red")

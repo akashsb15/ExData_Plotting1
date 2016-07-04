@@ -1,3 +1,6 @@
+  ##Unzip downloaded file
+    unzip(".data/Course4/ExData_Plotting1/household_power_consumption.zip")
+
   ## Read data from textfile
     rawData <- read.csv("./data/Course4/household_power_consumption.txt", sep = ";", header = TRUE)
   
@@ -29,7 +32,7 @@
   
   
   ## Select device to plot
-    png(file = "./data/Course4/ElectricPowerConsumptionData/figures/plot4.png", bg = "transparent")
+    png(file = "./data/Course4/ExData_Plotting1/figures/plot4.png", bg = "transparent")
   
   ## Make the grid for plots
     par(mfrow = c(2,2))

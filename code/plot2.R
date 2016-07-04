@@ -1,3 +1,6 @@
+##Unzip downloaded file
+  unzip(".data/Course4/ExData_Plotting1/household_power_consumption.zip")
+
 ## Read data from textfile
   rawData <- read.csv("./data/Course4/household_power_consumption.txt", sep = ";", header = TRUE)
 
@@ -14,7 +17,7 @@
   reqData$Global_active_power <- as.numeric(levels(reqData$Global_active_power)[reqData$Global_active_power])
 
 ## Select device to plot
-  png(file = "./data/Course4/ElectricPowerConsumptionData/figures/plot2.png", bg = "transparent")
+  png(file = "./data/Course4/ExData_Plotting1/figures/plot2.png", bg = "transparent")
 
 ## Plot line graph
   with(reqData,plot(Time,Global_active_power,type = "l", xlab = "", ylab = "Global Active Power (kilowatts)"))
